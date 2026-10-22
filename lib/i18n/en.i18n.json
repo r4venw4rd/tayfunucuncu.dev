@@ -98,7 +98,7 @@
     "help": {
       "title": "Available commands:",
       "whoami": "whoami    - About the developer",
-      "projects": "projects  - Show featured projects (Go/Flutter/AI)",
+      "projects": "projects  - Show featured projects (Flutter/Go)",
       "skills": "skills    - Technical capabilities",
       "contact": "contact   - Get email address",
       "clear": "clear     - Clear the terminal"
@@ -110,8 +110,8 @@
     ],
     "projects": {
       "fetching": "Connecting to GitHub API...",
-      "gymlogger": "1. Gymlogger (Go + Python LSTM + Flutter)",
-      "gymloggerDesc": "   - Advanced AI-powered fitness ecosystem.",
+      "barberbook": "1. BarberBook (Flutter + Riverpod + Hive)",
+      "barberbookDesc": "   - Barber appointment booking demo app.",
       "portfolio": "2. Terminal Portfolio (This Website)",
       "portfolioDesc": "   - Dockerized & Self-hosted on Linux VPS."
     },

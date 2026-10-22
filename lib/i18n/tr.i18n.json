@@ -98,7 +98,7 @@
     "help": {
       "title": "Kullanılabilir komutlar:",
       "whoami": "whoami    - Geliştirici hakkında",
-      "projects": "projects  - Öne çıkan projeleri göster (Go/Flutter/AI)",
+      "projects": "projects  - Öne çıkan projeleri göster (Flutter/Go)",
       "skills": "skills    - Teknik yetenekler",
       "contact": "contact   - E-posta adresini al",
       "clear": "clear     - Terminali temizle"
@@ -110,8 +110,8 @@
     ],
     "projects": {
       "fetching": "GitHub API'sine bağlanılıyor...",
-      "gymlogger": "1. Gymlogger (Go + Python LSTM + Flutter)",
-      "gymloggerDesc": "   - Gelişmiş yapay zeka destekli fitness ekosistemi.",
+      "barberbook": "1. BarberBook (Flutter + Riverpod + Hive)",
+      "barberbookDesc": "   - Berber randevu demo uygulaması.",
       "portfolio": "2. Terminal Portfolyo (Bu Web Sitesi)",
       "portfolioDesc": "   - Dockerize edildi ve Linux VPS üzerinde barındırılıyor."
     },

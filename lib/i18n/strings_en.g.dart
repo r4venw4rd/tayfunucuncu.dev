@@ -319,8 +319,8 @@ class TranslationsTerminalHelpEn {
 	/// en: 'whoami - About the developer'
 	String get whoami => 'whoami    - About the developer';
 
-	/// en: 'projects - Show featured projects (Go/Flutter/AI)'
-	String get projects => 'projects  - Show featured projects (Go/Flutter/AI)';
+	/// en: 'projects - Show featured projects (Flutter/Go)'
+	String get projects => 'projects  - Show featured projects (Flutter/Go)';
 
 	/// en: 'skills - Technical capabilities'
 	String get skills => 'skills    - Technical capabilities';
@@ -343,11 +343,11 @@ class TranslationsTerminalProjectsEn {
 	/// en: 'Connecting to GitHub API...'
 	String get fetching => 'Connecting to GitHub API...';
 
-	/// en: '1. Gymlogger (Go + Python LSTM + Flutter)'
-	String get gymlogger => '1. Gymlogger (Go + Python LSTM + Flutter)';
+	/// en: '1. BarberBook (Flutter + Riverpod + Hive)'
+	String get barberbook => '1. BarberBook (Flutter + Riverpod + Hive)';
 
-	/// en: ' - Advanced AI-powered fitness ecosystem.'
-	String get gymloggerDesc => '   - Advanced AI-powered fitness ecosystem.';
+	/// en: ' - Barber appointment booking demo app.'
+	String get barberbookDesc => '   - Barber appointment booking demo app.';
 
 	/// en: '2. Terminal Portfolio (This Website)'
 	String get portfolio => '2. Terminal Portfolio (This Website)';

@@ -250,7 +250,7 @@ class TranslationsTerminalHelpTr extends TranslationsTerminalHelpEn {
 	// Translations
 	@override String get title => 'Kullanılabilir komutlar:';
 	@override String get whoami => 'whoami    - Geliştirici hakkında';
-	@override String get projects => 'projects  - Öne çıkan projeleri göster (Go/Flutter/AI)';
+	@override String get projects => 'projects  - Öne çıkan projeleri göster (Flutter/Go)';
 	@override String get skills => 'skills    - Teknik yetenekler';
 	@override String get contact => 'contact   - E-posta adresini al';
 	@override String get clear => 'clear     - Terminali temizle';
@@ -264,8 +264,8 @@ class TranslationsTerminalProjectsTr extends TranslationsTerminalProjectsEn {
 
 	// Translations
 	@override String get fetching => 'GitHub API\'sine bağlanılıyor...';
-	@override String get gymlogger => '1. Gymlogger (Go + Python LSTM + Flutter)';
-	@override String get gymloggerDesc => '   - Gelişmiş yapay zeka destekli fitness ekosistemi.';
+	@override String get barberbook => '1. BarberBook (Flutter + Riverpod + Hive)';
+	@override String get barberbookDesc => '   - Berber randevu demo uygulaması.';
 	@override String get portfolio => '2. Terminal Portfolyo (Bu Web Sitesi)';
 	@override String get portfolioDesc => '   - Dockerize edildi ve Linux VPS üzerinde barındırılıyor.';
 }
