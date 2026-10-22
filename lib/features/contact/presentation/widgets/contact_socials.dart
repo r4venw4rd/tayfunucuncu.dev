@@ -11,7 +11,7 @@ class ContactSocials extends StatelessWidget {
       label: "Email",
       value: "tayfunucuncu@gmail.com",
     ),
-    SocialItem(icon: Icons.code, label: "GitHub", value: "github.com/tylefnx"),
+    SocialItem(icon: Icons.code, label: "GitHub", value: "github.com/r4venw4rd"),
     SocialItem(
       icon: Icons.work_outline,
       label: "LinkedIn",

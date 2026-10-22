@@ -323,7 +323,7 @@ class TranslationsPortfolioProjectsPortfolioTr extends TranslationsPortfolioProj
 	// Translations
 	@override String get title => 'tayfunucuncu.dev';
 	@override String get description => 'Temiz mimari ile hazırlanmış, kendi sunucumda barındırılan portfolyo sitesi.';
-	@override String get link => 'https://github.com/Tylefnx/tayfunucuncu.dev';
+	@override String get link => 'https://github.com/r4venw4rd/tayfunucuncu.dev';
 }
 
 // Path: portfolio.projects.gymlogger
@@ -347,7 +347,7 @@ class TranslationsPortfolioProjectsBudgetbuddyTr extends TranslationsPortfolioPr
 	// Translations
 	@override String get title => 'budgetbuddy';
 	@override String get description => 'Sadelik odaklı kişisel finans takip uygulaması.';
-	@override String get link => 'https://github.com/Tylefnx/budgetbuddy';
+	@override String get link => 'https://github.com/r4venw4rd/budgetbuddy';
 }
 
 // Path: portfolio.projects.bsl

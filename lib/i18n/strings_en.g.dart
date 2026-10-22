@@ -430,8 +430,8 @@ class TranslationsPortfolioProjectsPortfolioEn {
 	/// en: 'Self hosted portfolio website with clean architecture.'
 	String get description => 'Self hosted portfolio website with clean architecture.';
 
-	/// en: 'https://github.com/Tylefnx/tayfunucuncu.dev'
-	String get link => 'https://github.com/Tylefnx/tayfunucuncu.dev';
+	/// en: 'https://github.com/r4venw4rd/tayfunucuncu.dev'
+	String get link => 'https://github.com/r4venw4rd/tayfunucuncu.dev';
 }
 
 // Path: portfolio.projects.gymlogger
@@ -466,8 +466,8 @@ class TranslationsPortfolioProjectsBudgetbuddyEn {
 	/// en: 'Personal finance tracking application focused on simplicity.'
 	String get description => 'Personal finance tracking application focused on simplicity.';
 
-	/// en: 'https://github.com/Tylefnx/budgetbuddy'
-	String get link => 'https://github.com/Tylefnx/budgetbuddy';
+	/// en: 'https://github.com/r4venw4rd/budgetbuddy'
+	String get link => 'https://github.com/r4venw4rd/budgetbuddy';
 }
 
 // Path: portfolio.projects.bsl
