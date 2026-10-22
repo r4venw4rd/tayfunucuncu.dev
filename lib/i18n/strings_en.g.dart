@@ -90,8 +90,8 @@ class TranslationsHomeEn {
 
 	// Translations
 
-	/// en: 'Available for Freelance Work'
-	String get statusPill => 'Available for Freelance Work';
+	/// en: 'Open to Junior Flutter / Mobile Roles & Freelance Work'
+	String get statusPill => 'Open to Junior Flutter / Mobile Roles & Freelance Work';
 
 	/// en: 'Mobile Engineering Meets System Administration.'
 	String get heroTitle => 'Mobile Engineering Meets\nSystem Administration.';

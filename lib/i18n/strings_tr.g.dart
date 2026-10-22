@@ -75,7 +75,7 @@ class TranslationsHomeTr extends TranslationsHomeEn {
 	final TranslationsTr _root; // ignore: unused_field
 
 	// Translations
-	@override String get statusPill => 'Freelance Projeler İçin Müsait';
+	@override String get statusPill => 'Junior Flutter / Mobil Pozisyonlara ve Freelance İşlere Açık';
 	@override String get heroTitle => 'Mobil Mühendislik ve\nSistem Yönetiminin Gücü.';
 	@override String get heroDescription => 'Sadece uygulama geliştirmiyorum; güvenli, kararlı ve optimize edilmiş dijital ekosistemler mimarlıyorum. Flutter, Golang ve Linux Sistemleri üzerine uzmanlaştım.';
 	@override String get viewProjects => 'Projeleri İncele';
