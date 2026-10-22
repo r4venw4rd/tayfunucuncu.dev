@@ -299,10 +299,10 @@ class TranslationsPortfolioProjectsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+	late final TranslationsPortfolioProjectsBarberbookEn barberbook = TranslationsPortfolioProjectsBarberbookEn.internal(_root);
 	late final TranslationsPortfolioProjectsPortfolioEn portfolio = TranslationsPortfolioProjectsPortfolioEn.internal(_root);
-	late final TranslationsPortfolioProjectsGymloggerEn gymlogger = TranslationsPortfolioProjectsGymloggerEn.internal(_root);
 	late final TranslationsPortfolioProjectsBudgetbuddyEn budgetbuddy = TranslationsPortfolioProjectsBudgetbuddyEn.internal(_root);
-	late final TranslationsPortfolioProjectsBslEn bsl = TranslationsPortfolioProjectsBslEn.internal(_root);
+	late final TranslationsPortfolioProjectsYtdlServerEn ytdlServer = TranslationsPortfolioProjectsYtdlServerEn.internal(_root);
 }
 
 // Path: terminal.help
@@ -416,6 +416,24 @@ class TranslationsServicesItemsSecurityEn {
 	String get desc => 'Secure network architectures and VPN protocol configurations.';
 }
 
+// Path: portfolio.projects.barberbook
+class TranslationsPortfolioProjectsBarberbookEn {
+	TranslationsPortfolioProjectsBarberbookEn.internal(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+
+	/// en: 'BarberBook'
+	String get title => 'BarberBook';
+
+	/// en: 'Barber appointment booking app with a 5-step booking flow, local auth, light/dark themes and EN/TR localization. Demo with on-device data, no backend.'
+	String get description => 'Barber appointment booking app with a 5-step booking flow, local auth, light/dark themes and EN/TR localization. Demo with on-device data, no backend.';
+
+	/// en: 'https://github.com/r4venw4rd/barberbook'
+	String get link => 'https://github.com/r4venw4rd/barberbook';
+}
+
 // Path: portfolio.projects.portfolio
 class TranslationsPortfolioProjectsPortfolioEn {
 	TranslationsPortfolioProjectsPortfolioEn.internal(this._root);
@@ -432,24 +450,6 @@ class TranslationsPortfolioProjectsPortfolioEn {
 
 	/// en: 'https://github.com/r4venw4rd/tayfunucuncu.dev'
 	String get link => 'https://github.com/r4venw4rd/tayfunucuncu.dev';
-}
-
-// Path: portfolio.projects.gymlogger
-class TranslationsPortfolioProjectsGymloggerEn {
-	TranslationsPortfolioProjectsGymloggerEn.internal(this._root);
-
-	final Translations _root; // ignore: unused_field
-
-	// Translations
-
-	/// en: 'Gymlogger'
-	String get title => 'Gymlogger';
-
-	/// en: 'AI-powered fitness tracking mobile application with Go backend and an LSTM model.'
-	String get description => 'AI-powered fitness tracking mobile application with Go backend and an LSTM model.';
-
-	/// en: 'https://github.com/Tylefnx/gymlogger'
-	String get link => 'https://github.com/Tylefnx/gymlogger';
 }
 
 // Path: portfolio.projects.budgetbuddy
@@ -470,20 +470,20 @@ class TranslationsPortfolioProjectsBudgetbuddyEn {
 	String get link => 'https://github.com/r4venw4rd/budgetbuddy';
 }
 
-// Path: portfolio.projects.bsl
-class TranslationsPortfolioProjectsBslEn {
-	TranslationsPortfolioProjectsBslEn.internal(this._root);
+// Path: portfolio.projects.ytdlServer
+class TranslationsPortfolioProjectsYtdlServerEn {
+	TranslationsPortfolioProjectsYtdlServerEn.internal(this._root);
 
 	final Translations _root; // ignore: unused_field
 
 	// Translations
 
-	/// en: 'Based Login System'
-	String get title => 'Based Login System';
+	/// en: 'ytdl-server'
+	String get title => 'ytdl-server';
 
-	/// en: 'Minimalist TUI based login manager for unix based systems.'
-	String get description => 'Minimalist TUI based login manager for unix based systems.';
+	/// en: 'Concurrent Go server that resolves YouTube DASH streams and muxes them into MP4 with FFmpeg, using a bounded worker queue.'
+	String get description => 'Concurrent Go server that resolves YouTube DASH streams and muxes them into MP4 with FFmpeg, using a bounded worker queue.';
 
-	/// en: 'https://github.com/Tylefnx/bls'
-	String get link => 'https://github.com/Tylefnx/bls';
+	/// en: 'https://github.com/r4venw4rd/ytdl-server'
+	String get link => 'https://github.com/r4venw4rd/ytdl-server';
 }

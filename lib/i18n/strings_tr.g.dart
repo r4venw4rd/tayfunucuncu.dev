@@ -235,10 +235,10 @@ class TranslationsPortfolioProjectsTr extends TranslationsPortfolioProjectsEn {
 	final TranslationsTr _root; // ignore: unused_field
 
 	// Translations
+	@override late final TranslationsPortfolioProjectsBarberbookTr barberbook = TranslationsPortfolioProjectsBarberbookTr._(_root);
 	@override late final TranslationsPortfolioProjectsPortfolioTr portfolio = TranslationsPortfolioProjectsPortfolioTr._(_root);
-	@override late final TranslationsPortfolioProjectsGymloggerTr gymlogger = TranslationsPortfolioProjectsGymloggerTr._(_root);
 	@override late final TranslationsPortfolioProjectsBudgetbuddyTr budgetbuddy = TranslationsPortfolioProjectsBudgetbuddyTr._(_root);
-	@override late final TranslationsPortfolioProjectsBslTr bsl = TranslationsPortfolioProjectsBslTr._(_root);
+	@override late final TranslationsPortfolioProjectsYtdlServerTr ytdlServer = TranslationsPortfolioProjectsYtdlServerTr._(_root);
 }
 
 // Path: terminal.help
@@ -314,6 +314,18 @@ class TranslationsServicesItemsSecurityTr extends TranslationsServicesItemsSecur
 	@override String get desc => 'Güvenli ağ mimarileri ve VPN protokol yapılandırmaları.';
 }
 
+// Path: portfolio.projects.barberbook
+class TranslationsPortfolioProjectsBarberbookTr extends TranslationsPortfolioProjectsBarberbookEn {
+	TranslationsPortfolioProjectsBarberbookTr._(TranslationsTr root) : this._root = root, super.internal(root);
+
+	final TranslationsTr _root; // ignore: unused_field
+
+	// Translations
+	@override String get title => 'BarberBook';
+	@override String get description => '5 adımlı randevu akışı, yerel kimlik doğrulama, açık/koyu tema ve TR/EN dil desteği sunan berber randevu uygulaması. Sunucusuz, cihaz içi verilerle çalışan demo.';
+	@override String get link => 'https://github.com/r4venw4rd/barberbook';
+}
+
 // Path: portfolio.projects.portfolio
 class TranslationsPortfolioProjectsPortfolioTr extends TranslationsPortfolioProjectsPortfolioEn {
 	TranslationsPortfolioProjectsPortfolioTr._(TranslationsTr root) : this._root = root, super.internal(root);
@@ -324,18 +336,6 @@ class TranslationsPortfolioProjectsPortfolioTr extends TranslationsPortfolioProj
 	@override String get title => 'tayfunucuncu.dev';
 	@override String get description => 'Temiz mimari ile hazırlanmış, kendi sunucumda barındırılan portfolyo sitesi.';
 	@override String get link => 'https://github.com/r4venw4rd/tayfunucuncu.dev';
-}
-
-// Path: portfolio.projects.gymlogger
-class TranslationsPortfolioProjectsGymloggerTr extends TranslationsPortfolioProjectsGymloggerEn {
-	TranslationsPortfolioProjectsGymloggerTr._(TranslationsTr root) : this._root = root, super.internal(root);
-
-	final TranslationsTr _root; // ignore: unused_field
-
-	// Translations
-	@override String get title => 'Gymlogger';
-	@override String get description => 'Go backend ve LSTM modeli içeren yapay zeka destekli fitness takip uygulaması.';
-	@override String get link => 'https://github.com/Tylefnx/gymlogger';
 }
 
 // Path: portfolio.projects.budgetbuddy
@@ -350,14 +350,14 @@ class TranslationsPortfolioProjectsBudgetbuddyTr extends TranslationsPortfolioPr
 	@override String get link => 'https://github.com/r4venw4rd/budgetbuddy';
 }
 
-// Path: portfolio.projects.bsl
-class TranslationsPortfolioProjectsBslTr extends TranslationsPortfolioProjectsBslEn {
-	TranslationsPortfolioProjectsBslTr._(TranslationsTr root) : this._root = root, super.internal(root);
+// Path: portfolio.projects.ytdlServer
+class TranslationsPortfolioProjectsYtdlServerTr extends TranslationsPortfolioProjectsYtdlServerEn {
+	TranslationsPortfolioProjectsYtdlServerTr._(TranslationsTr root) : this._root = root, super.internal(root);
 
 	final TranslationsTr _root; // ignore: unused_field
 
 	// Translations
-	@override String get title => 'Based Login System';
-	@override String get description => 'Unix tabanlı sistemler için minimalist TUI tabanlı giriş yöneticisi.';
-	@override String get link => 'https://github.com/Tylefnx/bls';
+	@override String get title => 'ytdl-server';
+	@override String get description => 'YouTube DASH akışlarını çözümleyip FFmpeg ile MP4\'e birleştiren, sınırlı iş kuyruğu kullanan eşzamanlı Go sunucusu.';
+	@override String get link => 'https://github.com/r4venw4rd/ytdl-server';
 }
