@@ -6,29 +6,28 @@ class PortfolioData {
 
   static List<Project> get projects => [
     Project(
+      title: t.portfolio.projects.barberbook.title,
+      description: t.portfolio.projects.barberbook.description,
+      techStack: ["Flutter", "Riverpod", "go_router", "Hive"],
+      link: t.portfolio.projects.barberbook.link,
+    ),
+    Project(
       title: t.portfolio.projects.portfolio.title,
       description: t.portfolio.projects.portfolio.description,
       techStack: ["Flutter Web", "Docker", "Nginx", "Linux"],
       link: t.portfolio.projects.portfolio.link,
     ),
     Project(
-      title: t.portfolio.projects.gymlogger.title,
-      description: t.portfolio.projects.gymlogger.description,
-
-      techStack: ["Flutter", "Go", "Python", "PostgreSQL"],
-      link: t.portfolio.projects.gymlogger.link,
-    ),
-    Project(
       title: t.portfolio.projects.budgetbuddy.title,
       description: t.portfolio.projects.budgetbuddy.description,
-      techStack: ["Flutter", "Riverpod", "SQLite"],
+      techStack: ["Flutter", "Riverpod", "sembast"],
       link: t.portfolio.projects.budgetbuddy.link,
     ),
     Project(
-      title: t.portfolio.projects.bsl.title,
-      description: t.portfolio.projects.bsl.description,
-      techStack: ["C", "Linux", "TUI", "Bash"],
-      link: t.portfolio.projects.bsl.link,
+      title: t.portfolio.projects.ytdlServer.title,
+      description: t.portfolio.projects.ytdlServer.description,
+      techStack: ["Go", "FFmpeg", "Docker", "Make"],
+      link: t.portfolio.projects.ytdlServer.link,
     ),
   ];
 }

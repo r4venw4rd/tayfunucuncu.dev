@@ -10,7 +10,7 @@
     "contact": "Contact"
   },
   "home": {
-    "statusPill": "Available for Freelance Work",
+    "statusPill": "Open to Junior Flutter / Mobile Roles & Freelance Work",
     "heroTitle": "Mobile Engineering Meets\nSystem Administration.",
     "heroDescription": "I don't just build apps; I architect secure, stable, and optimized digital ecosystems. Specialized in Flutter, Golang, and Linux Systems.",
     "viewProjects": "View Projects",
@@ -66,25 +66,25 @@
   },
   "portfolio": {
     "projects": {
+      "barberbook": {
+        "title": "BarberBook",
+        "description": "Barber appointment booking app with a 5-step booking flow, local auth, light/dark themes and EN/TR localization. Demo with on-device data, no backend.",
+        "link": "https://github.com/r4venw4rd/barberbook"
+      },
       "portfolio": {
         "title": "tayfunucuncu.dev",
         "description": "Self hosted portfolio website with clean architecture.",
-        "link": "https://github.com/Tylefnx/tayfunucuncu.dev"
-      },
-      "gymlogger": {
-        "title": "Gymlogger",
-        "description": "AI-powered fitness tracking mobile application with Go backend and an LSTM model.",
-        "link": "https://github.com/Tylefnx/gymlogger"
+        "link": "https://github.com/r4venw4rd/tayfunucuncu.dev"
       },
       "budgetbuddy": {
         "title": "budgetbuddy",
         "description": "Personal finance tracking application focused on simplicity.",
-        "link": "https://github.com/Tylefnx/budgetbuddy"
+        "link": "https://github.com/r4venw4rd/budgetbuddy"
       },
-      "bsl": {
-        "title": "Based Login System",
-        "description": "Minimalist TUI based login manager for unix based systems.",
-        "link": "https://github.com/Tylefnx/bls"
+      "ytdlServer": {
+        "title": "ytdl-server",
+        "description": "Concurrent Go server that resolves YouTube DASH streams and muxes them into MP4 with FFmpeg, using a bounded worker queue.",
+        "link": "https://github.com/r4venw4rd/ytdl-server"
       }
     }
   },
@@ -98,7 +98,7 @@
     "help": {
       "title": "Available commands:",
       "whoami": "whoami    - About the developer",
-      "projects": "projects  - Show featured projects (Go/Flutter/AI)",
+      "projects": "projects  - Show featured projects (Flutter/Go)",
       "skills": "skills    - Technical capabilities",
       "contact": "contact   - Get email address",
       "clear": "clear     - Clear the terminal"
@@ -110,8 +110,8 @@
     ],
     "projects": {
       "fetching": "Connecting to GitHub API...",
-      "gymlogger": "1. Gymlogger (Go + Python LSTM + Flutter)",
-      "gymloggerDesc": "   - Advanced AI-powered fitness ecosystem.",
+      "barberbook": "1. BarberBook (Flutter + Riverpod + Hive)",
+      "barberbookDesc": "   - Barber appointment booking demo app.",
       "portfolio": "2. Terminal Portfolio (This Website)",
       "portfolioDesc": "   - Dockerized & Self-hosted on Linux VPS."
     },

@@ -11,7 +11,7 @@ class TerminalOutputs {
   static const List<String> help = [
     "Available commands:",
     "  whoami    - About the developer",
-    "  projects  - Show featured projects (Go/Flutter/AI)",
+    "  projects  - Show featured projects (Flutter/Go)",
     "  skills    - Technical capabilities",
     "  contact   - Get email address",
     "  clear     - Clear the terminal",
@@ -25,8 +25,8 @@ class TerminalOutputs {
 
   static const List<String> projects = [
     "Fetching projects from GitHub...",
-    "1. GymLogger (Go + Python LSTM + Flutter)",
-    "   - An AI-powered fitness tracking system.",
+    "1. BarberBook (Flutter + Riverpod + Hive)",
+    "   - Barber appointment booking demo app.",
     "2. Terminal Portfolio (This Website)",
     "   - Self-hosted on Oracle VPS using Docker.",
   ];

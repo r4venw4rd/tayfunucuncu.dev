@@ -10,7 +10,7 @@
     "contact": "İletişim"
   },
   "home": {
-    "statusPill": "Freelance Projeler İçin Müsait",
+    "statusPill": "Junior Flutter / Mobil Pozisyonlara ve Freelance İşlere Açık",
     "heroTitle": "Mobil Mühendislik ve\nSistem Yönetiminin Gücü.",
     "heroDescription": "Sadece uygulama geliştirmiyorum; güvenli, kararlı ve optimize edilmiş dijital ekosistemler mimarlıyorum. Flutter, Golang ve Linux Sistemleri üzerine uzmanlaştım.",
     "viewProjects": "Projeleri İncele",
@@ -66,25 +66,25 @@
   },
   "portfolio": {
     "projects": {
+      "barberbook": {
+        "title": "BarberBook",
+        "description": "5 adımlı randevu akışı, yerel kimlik doğrulama, açık/koyu tema ve TR/EN dil desteği sunan berber randevu uygulaması. Sunucusuz, cihaz içi verilerle çalışan demo.",
+        "link": "https://github.com/r4venw4rd/barberbook"
+      },
       "portfolio": {
         "title": "tayfunucuncu.dev",
         "description": "Temiz mimari ile hazırlanmış, kendi sunucumda barındırılan portfolyo sitesi.",
-        "link": "https://github.com/Tylefnx/tayfunucuncu.dev"
-      },
-      "gymlogger": {
-        "title": "Gymlogger",
-        "description": "Go backend ve LSTM modeli içeren yapay zeka destekli fitness takip uygulaması.",
-        "link": "https://github.com/Tylefnx/gymlogger"
+        "link": "https://github.com/r4venw4rd/tayfunucuncu.dev"
       },
       "budgetbuddy": {
         "title": "budgetbuddy",
         "description": "Sadelik odaklı kişisel finans takip uygulaması.",
-        "link": "https://github.com/Tylefnx/budgetbuddy"
+        "link": "https://github.com/r4venw4rd/budgetbuddy"
       },
-      "bsl": {
-        "title": "Based Login System",
-        "description": "Unix tabanlı sistemler için minimalist TUI tabanlı giriş yöneticisi.",
-        "link": "https://github.com/Tylefnx/bls"
+      "ytdlServer": {
+        "title": "ytdl-server",
+        "description": "YouTube DASH akışlarını çözümleyip FFmpeg ile MP4'e birleştiren, sınırlı iş kuyruğu kullanan eşzamanlı Go sunucusu.",
+        "link": "https://github.com/r4venw4rd/ytdl-server"
       }
     }
   },
@@ -98,7 +98,7 @@
     "help": {
       "title": "Kullanılabilir komutlar:",
       "whoami": "whoami    - Geliştirici hakkında",
-      "projects": "projects  - Öne çıkan projeleri göster (Go/Flutter/AI)",
+      "projects": "projects  - Öne çıkan projeleri göster (Flutter/Go)",
       "skills": "skills    - Teknik yetenekler",
       "contact": "contact   - E-posta adresini al",
       "clear": "clear     - Terminali temizle"
@@ -110,8 +110,8 @@
     ],
     "projects": {
       "fetching": "GitHub API'sine bağlanılıyor...",
-      "gymlogger": "1. Gymlogger (Go + Python LSTM + Flutter)",
-      "gymloggerDesc": "   - Gelişmiş yapay zeka destekli fitness ekosistemi.",
+      "barberbook": "1. BarberBook (Flutter + Riverpod + Hive)",
+      "barberbookDesc": "   - Berber randevu demo uygulaması.",
       "portfolio": "2. Terminal Portfolyo (Bu Web Sitesi)",
       "portfolioDesc": "   - Dockerize edildi ve Linux VPS üzerinde barındırılıyor."
     },

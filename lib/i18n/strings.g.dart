@@ -6,7 +6,7 @@
 /// Locales: 2
 /// Strings: 142 (71 per locale)
 ///
-/// Built on 2026-01-14 at 19:52 UTC
+/// Built on 2026-10-22 at 14:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint, unused_import
@@ -98,7 +98,6 @@ enum AppLocale with BaseAppLocale<AppLocale, Translations> {
 ///
 /// Usage:
 /// String a = t.someKey.anotherKey;
-/// String b = t['someKey.anotherKey']; // Only for edge cases!
 Translations get t => LocaleSettings.instance.currentTranslations;
 
 /// Method B: Advanced
@@ -115,7 +114,6 @@ Translations get t => LocaleSettings.instance.currentTranslations;
 /// Step 2:
 /// final t = Translations.of(context); // Get t variable.
 /// String a = t.someKey.anotherKey; // Use t variable.
-/// String b = t['someKey.anotherKey']; // Only for edge cases!
 class TranslationProvider extends BaseTranslationProvider<AppLocale, Translations> {
 	TranslationProvider({required super.child}) : super(settings: LocaleSettings.instance);
 
